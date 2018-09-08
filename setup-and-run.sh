@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-dockerhub_user=devops
+dockerhub_user=leobcastro
 
 jenkins_port=8080
 image_name=jenkins
-image_version=2.0.0
+image_version=1.0.0
 container_name=jenkins
 
 docker pull jenkins:2.112
